@@ -8,7 +8,7 @@ function kilometerToMeter(kilometer){
 
         //if kilometer is either 0 or negative value than it will run 
        
-        return 'kilometer can not be a negative number or zero .  Input a valid number';
+        return 'kilometer can not be a negative number or zero.so,Input a valid number';
     }
     else{
         //if kilometer is a positive value than it will run 
@@ -20,7 +20,7 @@ function kilometerToMeter(kilometer){
     }
     
     
-    var kilometer = 55;
+    var kilometer = -5;
 
     console.log(kilometerToMeter(kilometer));
 
